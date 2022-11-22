@@ -27,7 +27,6 @@ const createUser = obj => {
 const updateUser = (id,obj) =>{
     const remove= users.find(user=>user.id==id)
     const index= users.indexOf(remove)
-    console.log(remove)
     const putUser = 
     {
         id:parseInt(id),
